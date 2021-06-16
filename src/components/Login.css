@@ -1,0 +1,80 @@
+.login{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 30%;
+    height:44%;
+    margin-top:150px;
+    border-radius: 5px;
+    background-color: cadetblue;
+    box-shadow: 3px 3px 10px rgb(209, 202, 202);
+    
+}
+*{
+    outline: none;
+}
+
+
+.btn2{
+    position: absolute;
+    left:50%;
+    top:92%;
+    color: white;
+    border:none;
+    background-color:gray;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.tab{
+    position: absolute;
+    width:100vw;
+    height:100vh;
+    background-color: rgb(245, 243, 239);
+    text-align: center;
+    padding: 50px;
+    font-size: 1.3rem;
+}
+
+.input-field , .pass-field{
+    display: flex;
+    width: 90%;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+   
+}
+input{
+    padding: .3rem;
+    font-size: 1.5rem;
+    width: 60%;
+}
+
+h4{
+    margin-right: 5px;
+    font-size: 1.6rem;
+}
+.btn1{
+    margin-top: 15px;
+    font-size: 1.6rem;
+    margin-left: 20px;
+}
+
+
+@media screen and (max-width:998px) {
+    .login{
+        width: 50%;
+    }
+
+ }
+
+@media screen and (max-width:768px) {
+   .login{
+       width: 60%;
+   }
+   .tab{
+       font-size: 1rem;
+   }
+}

@@ -1,0 +1,20 @@
+
+.app{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:  rgb(112, 105, 105);
+  /* align-items: center; */
+  /* border:2px solid blue; */
+}
+html{
+  font-size:10px;
+}
+
+h4{
+  font-size: 1.7rem;
+  color: whitesmoke;
+  text-align: center;
+}
